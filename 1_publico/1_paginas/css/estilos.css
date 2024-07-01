@@ -1,0 +1,249 @@
+html,
+body,
+h1,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+pre,
+code,
+address,
+variable,
+form,
+fieldset,
+blockquote {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-color: #c1c7cb;
+  margin: 0 auto;
+  background-color: #faf9f7;
+}
+
+.logo {
+  /*Esta dentro del header*/
+  height: 57px;
+}
+
+nav {
+  background-color: #ac051f;
+  padding-left: 0px;
+}
+li {
+  list-style: none; /* quitar biñetas */
+}
+.container {
+  margin: 0 auto;
+  width: min(1000px, 100%);
+}
+.menus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif, Muli;
+  font-weight: 700;
+  font-size: 95%;
+  width: 112px;
+}
+.menus img{
+  height: 45px;
+}
+.option-login {
+  padding-top: 20px;
+  height: 37px;
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif, Muli;
+  font-weight: 700;
+  font-size: 95%;
+  width: 112px;
+}
+.contenedor-menu {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.contenedor-menu div {
+  display: flex;
+}
+.contenedor-menu div li a,
+.option-login {
+  text-align: center;
+}
+.contenedor-menu-login {
+  display: flex;
+  gap: 2rem;
+}
+
+.menus:hover,
+.option-login:hover {
+  background-color: #6d0a02;
+}
+
+.contenido-img {
+}
+
+h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.contenido {
+  clear: both;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  /*border-radius: 9px 9px 9px 9px;*/
+  /*box-shadow: grey 0px 9px 5px 5px;*/
+  width: 100%px;
+}
+
+.titulo {
+  height: 26px;
+  border-bottom: 1px solid #c1c7cb;
+}
+.titulo h3 {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #556370;
+  float: left;
+  font-family: "Sgy Open Sans", "Lucida Grande", Tahoma, Verdana, Arial,
+    sans-serif;
+}
+
+.info_archivos {
+  clear: both;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 15%);
+}
+.info {
+  padding: 15px 0px 10px 0px;
+  border-bottom: 1px solid #c1c7cb;
+}
+.info p {
+  text-align: justify;
+  font: 95% sans-serif, "Sgy Open Sans", "Lucida Grande", Tahoma, Verdana, Arial;
+  line-height: 160%;
+}
+
+.carrusel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: antiquewhite;
+  width: 100%;
+  margin-bottom: 50px;
+  border: 1px solid;
+  border-color: #c1c7cb;
+}
+
+.imagen_archivos {
+  margin-top: 20px;
+}
+.imagen_archivos .imagen_archivo {
+  float: left;
+}
+.imagen_archivo img {
+  float: left;
+  height: 70px;
+}
+
+.btreporte {
+  margin-left: 690px;
+  border: solid white;
+  height: 25px;
+  color: white;
+  background-color: #556370;
+}
+
+.menu_materia {
+  clear: both;
+  padding-top: 5px;
+  background-color: #6d0a02;
+  color: white;
+  text-align: center;
+  font-family: sans-serif, Muli;
+  font-weight: 700;
+  font-size: 90%;
+  height: 20px;
+}
+.menus--select{
+  background-color: #6d0a02;
+}
+.btn-prev {
+  height: 100%;
+  width: 90px;
+  background-color: transparent;
+  position: absolute;
+  border-color: transparent;
+  color: #ac051f;
+  font-family: cursive;
+  font-size: 400%;
+  font-weight: bold;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+}
+
+.btn-next {
+  position: absolute;
+  height: 100%;
+  width: 90px;
+  background-color: transparent;
+  border-color: transparent;
+  color: #ac051f;
+  font-family: cursive;
+  font-size: 400%;
+  font-weight: bold;
+  cursor: pointer;
+  right: 0;
+  top: 0;
+}
+
+@media (max-width: 768px){
+  .contenedor-menu {
+    justify-content: center;
+  }
+
+  .contenedor-menu-login {
+    position: absolute;
+    right: 0;
+  }
+  .logo{
+    display: none;
+  }
+
+  .contenedor-menu div {
+    flex-direction: column;
+  }
+
+  .menus{
+      height: 30px;
+      padding: 10px 0;
+      }
+      
+      .menus img{
+        
+        height: 20px;
+  }
+
+}

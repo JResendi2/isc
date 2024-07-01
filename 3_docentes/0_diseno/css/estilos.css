@@ -1,0 +1,231 @@
+
+
+body{
+	border-left: solid;
+	border-right: solid;
+	border-color: beige;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+p{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 14px;
+}
+
+.navegacion{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    color: white;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background-color: #6495ed;
+	margin-bottom: 30px;
+}
+
+.navegacion-home{
+	display: flex;
+    color: white;
+	justify-content: center;
+	align-items: flex-end;
+	padding: 2px 10px;
+
+}
+
+.navegacion h2, h5, h4, h3{
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+table{
+	border: solid 1px;
+	border-radius: 10px;
+	width: 100%;
+}
+th, td{
+	padding: 2px 20px;
+}
+td{
+	text-align: left;
+}
+
+th{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align:left;
+}
+.table-new .field {
+    width: 100px;
+}
+
+.table-new input, .table-new textarea {
+    width: 400px;
+}
+
+.table-new {
+    padding: 20px;
+}
+
+.div-btn-new{
+	display: flex;
+	justify-content: end;
+	margin-bottom: 20px;
+	padding-right: 10px;
+	gap: 1rem;
+	cursor: pointer;
+}
+
+.btn-new{
+	padding: 5px 10px;
+	border: none;
+	color: white;
+	border-radius: 10px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-color: teal;
+}
+
+.btn-delete{
+	padding: 8px 10px;
+	border: none;
+	color: white;
+	border-radius: 10px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-color: brown;
+	margin-left: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.navegacion-exit{
+    color: white;
+	padding: 2px 10px;
+	border-radius: 2px;
+	height: 24px;
+	display: flex;
+	align-items: center;
+}
+
+.navegacion a:hover{
+	background-color: rgb(68, 112, 192);
+}
+
+
+.docentes-main{
+	display: flex;
+	margin-bottom: 5rem;
+	justify-content: space-between;
+}
+
+.opcion{
+	border: solid gray 2px;
+	border-radius: 6px;
+	width: 200px;
+}
+
+.opcion .img{
+	background-color: #6495ed;
+	border-radius: 4px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.opcion p{
+	margin: 10px 0;
+	text-align: center;
+}
+
+.lista{ 
+	margin-right: 100px; 
+	height: 20px;
+}
+
+.menus{
+	list-style: none;  /* quitar biñetas */
+	display: inline-block; /* colocar las opciones en linea */
+	/* outline: 1px solid red;  contorno de la lista */
+}
+
+.menus a div{
+	width: 90px;
+	border-left: solid;
+	border-right: solid;
+	border-color: #FA004A;
+	margin-right: 10px;
+	text-align: center;
+	color: white;
+	font-family: cursive;
+	font-size: 0.9em;
+}
+
+.menus a div:hover{
+	border-color: white;
+}
+
+a{
+	text-decoration: none;
+}
+
+#formularios{
+	margin-top: 50px; text-align: center;
+}
+
+.docentes-footer{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.btn-reporte {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(124, 160, 228);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.contenido{
+	margin-top: 90px; 
+	margin-right:10%; 
+	margin-left: 10%
+}
+
+.c{
+	margin-top: 200px;
+	background-color: #41EAD4;
+}
+
+.campos{
+	float: left; 
+	margin-right: 20px;
+}
+
+
+
+
+
+td{
+	text-align: left;
+}
+
+table{
+	margin: 0px auto;
+}
+
+#opciones{
+	padding: 0 50px;
+}
+
+.adv{
+	box-shadow: 4px 4px 10px red;
+}
+
+.advc{
+	box-shadow: 4px 4px 10px red;
+}

@@ -1,0 +1,79 @@
+<!--Este archivo solo contiene un formulario con los campos necesario para agregar un nuevo registro en
+    la tabla "sitosweb" -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ISC oficial</title>
+		<link rel="stylesheet" type="text/css" href="../../css/css/estilos.css">
+	</head>
+	
+	<body>
+		<nav>
+			<u1 class='lista'>
+				<li class='menus'><a href='../../funciones/gestionar_docentes/1_tabla.php'>
+						<div>Docentes</div>
+					</a> </li>
+				<li class='menus'><a href='../../funciones/gestionar_materias/1_tabla.php'>
+						<div>Materias</div>
+					</a> </li>
+				<li class='menus'><a href='../../funciones/gestionar_semestres/1_tabla.php'>
+						<div>Semestres</div>
+					</a> </li>
+				<li class='menus'><a href='../../funciones/gestionar_sitios/1_tabla.php'>
+						<div>Sitios webs</div>
+					</a> </li>
+				<li class='menus'><a href='../../funciones/gestionar_avisos/1_tabla.php'>
+						<div>Avisos</div>
+					</a> </li>
+				<li class='menus'><a href='../../funciones/gestionar_usuarios/1_tabla.php'>
+						<div>Usuarios</div>
+					</a> </li>
+				<li class='menus'><a href='../../logout.php'>
+	
+						<div>Salir</div>
+					</a> </li>
+				</u1>
+				<img src="../../css/img/logo1.png" height="35">
+	
+		</nav>
+
+		<section>
+
+			<h3 class="subtitulo-new">Registra un nuevo docente</h3>
+
+			<form enctype="multipart/form-data" action = "2_nuevo_insert.php" method="post">
+				<div style="padding: 0 10px;">
+				
+				<table class="table-new">
+					<tr>
+						<td class="field">Nombre:</td>
+						<td class="input"><input type = text name = "nombre" id="nombre" size = 40 required></td>
+					</tr>
+					<tr>
+						<td>Especialidad:</td>
+						<td><input type = text name = "especialidad" id="especialidad" required> </td>
+					</tr>
+					<tr>
+						<td>Descripción:</td>
+						<td><textarea rows="5" name="descripcion"></textarea> </td>
+					</tr>
+				</table> <br><br>
+				</div>
+
+
+				<div class="div-btn-new">
+					<input class="btn-new" type = reset value = "Limpiar campos">
+					<input class="btn-new" type = submit value = "Guardar">
+				</div>
+
+				
+				<!--Este boton abre el archivo "2_nuevo_insertar.php", y envia los datos del formulario hacia ese mismo archivo-->
+
+				<br><br><br>	
+			</form>	
+		</section>
+	</body>
+</html>

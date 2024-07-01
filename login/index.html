@@ -1,0 +1,37 @@
+<!--Este archivo solo contiene un formulario con los campos necesario para iniciar sesion.
+	La validacion se raliza en el archivo "validar_login.php" -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>ISC oficial</title>
+
+	<link rel='stylesheet' type='text/css' href='css/css/estilos.css'>
+</head>
+<body>
+		<section>
+
+			<h3 class="login-titulo">Iniciar sesion</h3>
+
+		<form action = 'validar_login.php' method='post'>
+			
+			<div class="form-login">
+			<p>Ingresa tu usuario y contraseña</p>
+				<div class="login-campo">
+					<label>Usuario:</label>
+					<input  type = text	name = 'txtUser' size = 40 required>
+				</div>
+				<div class="login-campo">
+					<label>Contraseña:</label>
+					<input class="login-input" type = password	name = 'txtContra' size = 37 required>	
+				</div>
+					
+				<input class="login-submit" type = submit value = 'Iniciar sesion' name = 'iniciar'>
+				
+			</div>
+		</form>	
+		</section>
+</body>
+
+</html>

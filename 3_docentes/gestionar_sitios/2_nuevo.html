@@ -1,0 +1,55 @@
+<!--Este archivo solo contiene un formulario con los campos necesario para agregar un nuevo registro en
+    la tabla "sitosweb" -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ISC oficial</title>
+		<link rel="stylesheet" type="text/css" href="../0_diseno/css/estilos.css">
+	</head>
+	
+	<body>
+		<header>
+			<img src="../0_diseno/img/logo1.png" height="55" style="margin-right: 150px; float: left;">
+			<img src="../0_diseno/img/logo2.png" height="55">
+		</header>
+
+		<nav>
+			
+		</nav>
+
+		<section>
+
+			<h2>Sitios web</h2>
+
+			<form enctype="multipart/form-data" action = "2_nuevo_insert.php" method="post">
+				<table>
+					<tr>
+						<td>Nombre:</td>
+						<td><input type = text name = "txtNombre" id="txtNombre" size = 40 required></td>
+					</tr>
+					<tr>
+						<td>Link:</td>
+						<td><input type = text name = "txtLink" id="txtLink" required> </td>
+					</tr>
+					<tr>
+						<td>Descripción:</td>
+						<td><textarea name = "txtDesc" id="txtDesc" required> </textarea></td>
+					</tr>
+					<tr>
+						<td>Imagen:</td>
+						<td><input type = file name = "txtImg" id="txtImg" accept=".jpg, .jpeg, .png"></td>
+					</tr>
+				</table> <br><br>
+
+				<input type = submit value = "Guardar">
+				<!--Este boton abre el archivo "2_nuevo_insertar.php", y envia los datos del formulario hacia ese mismo archivo-->
+				<input type = reset value = "Limpiar campos">
+
+				<br><br><br>	
+			</form>	
+		</section>
+	</body>
+</html>

@@ -1,0 +1,287 @@
+
+
+
+body{
+	border-left: solid;
+	border-right: solid;
+	border-color: beige;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+nav{
+	background-color: #FA004A; 
+	padding-bottom: 5px; 
+	padding-top: 5px; 
+	padding-left: 2px;
+}
+
+label, input, p{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.lista{ 
+	margin-right: 100px; 
+	height: 20px;
+}
+
+.menus{
+	list-style: none;  /* quitar biñetas */
+	display: inline-block; /* colocar las opciones en linea */
+	/* outline: 1px solid red;  contorno de la lista */
+}
+
+.menus a div{
+	width: 90px;
+	border-left: solid;
+	border-right: solid;
+	border-color: #FA004A;
+	margin-right: 10px;
+	text-align: center;
+	color: white;
+	font-family: cursive;
+	font-size: 0.9em;
+}
+
+.menus a div:hover{
+	border-color: white;
+}
+
+a{
+	text-decoration: none;
+}
+
+#formularios{
+	margin-top: 50px; text-align: center;
+}
+
+
+/*
+.contenido{
+	margin-top: 90px; 
+	margin-right:10%; 
+	margin-left: 10%
+}
+
+.c{
+	margin-top: 200px;
+	background-color: #41EAD4;
+}
+
+.campos{
+	float: left; 
+	margin-right: 20px;
+}*/
+
+h3{
+	padding-left: 10px;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 span{
+	font-style: italic;
+	color: blueviolet;
+	font-weight: bold;
+}
+
+.carrera{
+	font-style: italic;
+	color: black;
+	font-weight: normal;
+}
+
+.subtitulo{
+	text-align: center;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	background-color: rgb(160, 160, 160);
+}
+
+table{
+	border: solid 1px;
+	border-radius: 10px;
+	width: 100%;
+}
+th, td{
+	padding: 2px 20px;
+}
+
+.div-btn-new{
+	display: flex;
+	justify-content: end;
+	margin-bottom: 20px;
+	padding-right: 10px;
+}
+
+.btn-new{
+	padding: 5px 10px;
+	border: none;
+	color: white;
+	border-radius: 10px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-color: brown;
+}
+
+td{
+	text-align: left;
+}
+
+th{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align:left;
+}
+
+
+
+.div-btn-new{
+	display: flex;
+	justify-content: end;
+	margin-bottom: 20px;
+	padding-right: 10px;
+}
+
+.btn-new{
+	padding: 5px 10px;
+	border: none;
+	color: white;
+	border-radius: 10px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-color: teal;
+}
+
+.div-btn-new{
+	display: flex;
+	justify-content: end;
+	margin-bottom: 20px;
+	padding-right: 10px;
+	gap: 15px;
+}
+
+.btn-delete{
+	padding: 8px 10px;
+	border: none;
+	color: white;
+	border-radius: 10px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-color: brown;
+	margin-left: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.btn-add{
+	padding: 8px 10px;
+	border: none;
+	color: white;
+	border-radius: 10px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-color: darkcyan;
+	margin-left: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.reportes{
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 10px;
+	margin: 0px 10px;
+}
+
+.btn-reporte{
+	padding: 8px 10px;
+	border: none;
+	border-radius: 10px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-color: rgb(124, 160, 228);
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+footer{
+	border-top: solid 1px;
+	text-align: center;
+	padding: 0px 10px;
+	margin-top: 50px;
+	
+}
+
+
+/* Tabla para registrar */
+.table-new{
+	padding: 20px;
+}
+
+.table-new .field{
+	width: 100px;
+}
+
+.table-new input,
+.table-new textarea
+{
+	width: 400px;
+}
+
+
+.subtitulo-new{
+	text-align: center;
+	color: white;
+	padding: 3px 0;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	background-color: darkcyan;
+}
+
+.subtitulo-semestres{
+	text-align: center;
+	color: black;
+	padding: 3px 0;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+	border-bottom: solid darkcyan 2px;
+}
+
+
+/*Login*/
+
+.login-titulo{
+	text-align: center;
+	color: white;
+	margin: 1px 0 20px 0;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	background-color: cornflowerblue;
+}
+
+.form-login{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 500px;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-campo{
+	display: flex;
+}
+
+.login-campo label{
+	width: 100px;
+}
+
+.login-campo input{
+	width: 200px;
+	padding: 5px;
+	border: solid dimgray 1px;
+	border-radius: 5px;
+}
+
+.login-submit{
+	margin-top: 20px;
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+	width: 200px;
+	font-size: 18px;
+	cursor: pointer;
+	background-color: cornflowerblue;
+	color: white;
+}

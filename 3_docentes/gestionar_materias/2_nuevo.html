@@ -1,0 +1,57 @@
+<!--Este archivo solo contiene un formulario con los campos necesario para agregar un nuevo registro en
+    la tabla "materias" -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ISC oficial</title>
+		<link rel="stylesheet" type="text/css" href="../0_diseno/css/estilos.css">
+	</head>
+	
+	<body>
+		<header>
+			<img src="../0_diseno/img/logo1.png" height="55" style="margin-right: 150px; float: left;">
+			<img src="../0_diseno/img/logo2.png" height="55">
+		</header>
+
+		<nav>
+			<u1 class='lista' >
+				<li class='menus'><a href='../../4_visitantes/index.php'><div>Inicio</div></a>  </li>
+				<li class='menus'><a href='../../4_visitantes/reticula.php'><div>Reticula</div></a>  </li>
+				<li class='menus'><a href='../../4_visitantes/avisos.php'><div>Avisos</div></a>  </li>
+				<li class='menus'><a href='../../4_visitantes/docentes.php'><div>Docentes</div></a>  </li>
+				<li class='menus'><a href='../../4_visitantes/sitios.php'><div>Sitios webs</div></a>  </li>
+			</u1>
+		</nav>
+
+		<section>
+
+			<h2>Contenidos principales</h2>
+
+			<form  enctype="multipart/form-data" action = "2_nuevo_insert.php" method="post">
+				<table>
+					<tr>
+						<td>Nombre:</td>
+						<td><input type = text name = "nombre" id="nombre" size = 40 required></td>
+					</tr>
+					<tr>
+						<td>Clave:</td>
+						<td><textarea name = "clave" id="clave" required> </textarea></td>
+					</tr>
+					<tr>
+						<td>Plan de estudios:</td>
+						<td><input type = file name = "archivo" id="archivo"></td>
+					</tr>
+				</table> <br><br>
+
+				<input type = submit value = "Guardar">
+				<!--Este boton abre el archivo "2_nuevo_insertar.php", y envia los datos del formulario hacia ese mismo archivo-->
+				<input type = reset value = "Limpiar campos">
+
+				<br><br><br>	
+			</form>	
+		</section>
+	</body>
+</html>

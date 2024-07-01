@@ -1,0 +1,86 @@
+<!doctype html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ISC oficial</title>
+
+		<link rel="stylesheet" type="text/css" href="../0_diseno/css/estilos.css">
+</head>
+<body>
+		<header>
+				<img src="../0_diseno/img/logo1.png" height="55" style="margin-right: 150px; float: left;">
+				<img src="../0_diseno/img/logo2.png" height="55">
+		</header>
+
+		<nav>
+				<u1 class='lista' >
+					<li class='menus'><a href='../../4_visitantes/index.html'><div>Inicio</div></a>  </li>
+					<li class='menus'><a href='../../4_visitantes/reticula.html'><div>Reticula</div></a>  </li>
+					<li class='menus'><a href='../../4_visitantes/avisos.html'><div>Avisos</div></a>  </li>
+					<li class='menus'><a href='../../4_visitantes/docentes.html'><div>Docentes</div></a>  </li>
+					<li class='menus'><a href='../../4_visitantes/sitios.html'><div>Sitios webs</div></a>  </li>
+				</u1>
+		</nav>
+
+		<section>
+
+			<h2 align="center">Materias</h2>
+
+			<form action = "recuperar_datos/materias.php" method="post" style="margin-top: 50px; text-align: center;">
+			
+			Nombre: 
+			<input type = text name = "txtNombre" size = 50>
+			
+			<br><br>
+
+			Clave: 
+			<input type = text name = "txtClave" size = 9>
+			
+			<br><br>
+
+			Plan de estudios:
+			<input type = file name = "txtPlan">
+			<br><br>
+
+			Seleccionar los temas
+			<table border="1" style="margin: 0 auto; width:600px">
+				<tr>
+					<th>
+						Temas
+					</th>
+				</tr>
+			</table>
+			<br><br>
+
+			<input type = button value = "Agregar los temas">
+
+			<br><br><br><br>
+
+			
+
+			<!-- Tipos de botones -->
+
+			<!-- Boton submit -->
+			<input type = submit 
+				value = "Guardar">
+				<!-- La accion de este metodo se define 
+					 con la etiqueta de apertura de form
+					 usando la palabra action y method -->
+
+			<!-- Boton reset -->
+			<input type = reset 
+				value = "Limpiar campos">
+				<!-- La accion de este boton es limpiar todos
+					 los campos de la pagina -->
+
+	
+		</form>	
+		</section>
+
+
+</body>
+
+</html>
